@@ -13,7 +13,10 @@ public class Main {
         String keyword = input.nextLine();
 
 
-       System.out.println(Understand.Birth(searchText));
+       //System.out.println(Understand.Birth(searchText));
+        //Understand.Find(searchText,keyword);
+       System.out.println(Understand.Find(searchText,keyword,10,10));
+
 
 
     }
